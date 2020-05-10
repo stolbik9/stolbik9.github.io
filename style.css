@@ -1,4 +1,31 @@
-a:visited{
+.menu_href:visited{
     color: white;
     font-size: 0px;
+}
+.b{padding: 10px 20px;text-decoration: none;}
+.button1{
+    background-color: #1565C0;
+    color: white;
+}
+.button2{
+    background-color: #00796B;
+    color: white;
+    
+}
+.button3{
+    background-color: #FEC007;
+    color: black;
+}
+.spoiler{
+    width: 300px;
+    background-color: #27ae60;
+    color: #ecf0f1;
+    transition: 1s;
+    padding-left: 30px;
+    overflow: hidden;
+    height: 50px;
+    margin-top: 20px;
+}
+.spoiler:hover{
+    height: 400px;
 }
